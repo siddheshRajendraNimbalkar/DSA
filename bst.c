@@ -71,6 +71,7 @@ struct node *search(struct node *root, int key)
             root = root->left;
         }
     }
+    return -1;
 }
 
 int leafCount(struct node *root)
